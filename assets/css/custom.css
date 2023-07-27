@@ -74,6 +74,7 @@ header .header_main .headerright .menuIcon p {
 .navigation {
     display: none;
     position: fixed;
+    z-index: 200;
     top: 0;
     right: 73px;
     max-width: 320px;
