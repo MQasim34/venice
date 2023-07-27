@@ -1,0 +1,201 @@
+/* media query */
+
+@media only screen and (max-width: 991px) {
+    .homeSec1 .custom_container .homeSec1Lower .mainInner.fortheBorder {
+        padding: 0 60px;
+    }
+
+    footer .inner {
+        flex-wrap: wrap;
+        justify-content: center;
+    }
+}
+
+@media only screen and (max-width: 767px) {
+    .homeSec1 {
+        padding-top: 105px;
+    }
+
+    .homeSec1 .custom_container {
+        padding: 0;
+    }
+
+    .homeSec1 .custom_container .inner {
+        display: flex;
+        flex-direction: column;
+        gap: 0;
+    }
+
+    .homeSec1 .custom_container .inner .right,
+    .homeSec1 .custom_container .inner .left {
+        width: 100%;
+        padding-left: 0;
+    }
+
+    .homeSec1 .custom_container .inner .right .main_right h1 br,
+    .homeSec1 .custom_container .inner .right .main_right p br {
+        display: none;
+    }
+
+    header .header_main .headerLeft .logo_link p {
+        font-size: 42px;
+    }
+
+    header .header_main .inner {
+        padding: 22px 0;
+    }
+
+    header .header_main .headerright .menuIcon p {
+        display: none;
+    }
+
+    header .header_main .inner {
+        align-items: center;
+    }
+
+    .homeSec1 .custom_container .homeSec1Lower {
+        flex-direction: column;
+        padding: 0 13px;
+        gap: 20px;
+    }
+
+    .homeSec1 .custom_container .homeSec1Lower .mainInner.fortheBorder {
+        border: none;
+        padding: 30px 0;
+        position: relative;
+    }
+
+    .homeSec1 .custom_container .homeSec1Lower .mainInner.fortheBorder:after {
+        position: absolute;
+        content: '';
+        top: 0;
+        left: 50%;
+        transform: translateX(-50%);
+        max-width: 300px;
+        width: 100%;
+        height: 1px;
+        background-color: #898f98;
+    }
+
+    .homeSec1 .custom_container .homeSec1Lower .mainInner.fortheBorder:before {
+        position: absolute;
+        content: '';
+        bottom: 0;
+        left: 50%;
+        transform: translateX(-50%);
+        max-width: 300px;
+        width: 100%;
+        height: 1px;
+        background-color: #898f98;
+    }
+
+    .homeSec2 .sec2Main .sec2top img {
+        opacity: 1;
+        height: auto;
+    }
+
+    .navigation {
+        right: 0;
+        height: 100%;
+        bottom: 0;
+        top: 0;
+        left: 0;
+    }
+
+    .homeSec3 .sec3_container .inner {
+        flex-direction: column;
+    }
+
+    .homeSec4 .sec4_container .inner {
+        flex-direction: column;
+    }
+
+    .homeSec4 .sec4_container .inner {
+        gap: 45px;
+    }
+
+    .homeSec4 .sec4_container {
+        max-width: 575px;
+    }
+
+    .homeSec4 .sec4_container .inner p,
+    .homeSec4 .sec4_container .inner h2 {
+        font-size: 18px;
+    }
+
+    footer .inner {
+        flex-direction: column;
+        gap: 45px;
+    }
+
+    .footer_lower .lowerInner {
+        flex-wrap: wrap;
+        text-align: center;
+    }
+}
+
+
+@media only screen and (max-width: 575px) {
+    .homeSec5 .sec5inner {
+        flex-wrap: wrap;
+    }
+
+    footer .inner {
+        flex-direction: column;
+    }
+}
+
+
+/* @medai for the 428px */
+@media only screen and (max-width: 428px) {
+    .homeSec1 .custom_container .inner .right .main_right h1 {
+        font-size: 16px;
+    }
+
+    .homeSec1 .custom_container {
+        padding: 0;
+    }
+
+    .homeSec1 {
+        padding-top: 150px;
+    }
+
+    .homeSec1 .custom_container .inner {
+        gap: 0;
+    }
+
+    .homeSec1 .custom_container .inner .right .main_right p {
+        margin-bottom: 30px;
+    }
+
+    header .header_main .headerLeft .logo_link p {
+        font-size: 36px;
+    }
+
+    header .header_main .inner {
+        padding: 10px 0;
+    }
+
+    .homeSec2 .sec2Main .secloewer p br,
+    .homeSec2 .sec2Main .secloewer h1 br {
+        display: none;
+
+    }
+
+    footer .inner .footerContent .footerImgs {
+        gap: 5px;
+    }
+}
+
+
+/* @media for the 360 */
+@media only screen and (max-width: 360px) {
+    .homeSec1 .custom_container .inner .right .main_right h1 {
+        font-size: 26px;
+    }
+
+    .homeSec1 {
+        padding-top: 75px;
+    }
+
+}
