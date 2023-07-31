@@ -221,6 +221,20 @@
         align-items: center;
         gap: 20px;
     }
+
+    .contact_sec .contact_container .inner_cont {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .contact_sec .contact_container .inner_cont .leftCon {
+        width: 50%;
+    }
+
+    .contact_sec .contact_container .inner_cont .leftRight {
+        width: 70%;
+    }
 }
 
 
@@ -309,6 +323,38 @@
     .serviceSec4 .inner .serSec4Cont .contentInner p {
         font-size: 14px;
         margin: 10px 0 15px 0;
+    }
+
+    .contact_sec .contact_container .inner_cont .leftCon {
+        width: 100%;
+    }
+
+    .contact_sec .contact_container .inner_cont .leftRight {
+        width: 100%;
+    }
+
+    .contact_sec .contact_container .inner_cont .leftRight .contSec {
+        padding: 0;
+    }
+
+    .contact_sec {
+        padding-top: 14px;
+    }
+
+    .contact_sec .contact_container .inner_cont .leftRight .contSec .contect_form :is(input, textarea) {
+        width: 100%;
+    }
+
+    .contact_sec .contact_container .inner_cont .leftRight .contSec h1 {
+        margin: 0;
+    }
+
+    .contact_sec .contact_container .inner_cont .leftRight .contSec :is(.contect_form, p, ) {
+        margin: 15px 0 10px 0;
+    }
+
+    .contact_sec .contact_container .inner_cont {
+        gap: 0;
     }
 }
 

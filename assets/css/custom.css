@@ -983,3 +983,89 @@ footer .inner .footerContent p {
     margin-top: 30px;
     margin-bottom: 30px;
 }
+
+.contact_sec {
+    padding: 62px 0;
+    background-color: rgba(218, 232, 240, 1);
+}
+
+.contact_sec .contact_container {
+    max-width: 1020px;
+    margin: auto;
+    justify-content: center;
+    align-items: center;
+    padding: 0 14px;
+}
+
+.contact_sec .contact_container .inner_cont {
+    display: flex;
+    gap: 40px;
+    justify-content: center;
+    /* align-items: center */
+}
+
+.contact_sec .contact_container .inner_cont .leftCon {
+    width: 41.7%;
+}
+
+.contact_sec .contact_container .inner_cont .leftCon img {
+    width: 100%;
+}
+
+.contact_sec .contact_container .inner_cont .leftRight {
+    width: 54%;
+}
+
+.contact_sec .contact_container .inner_cont .leftRight .contSec {
+    display: flex;
+    flex-direction: column;
+    padding-left: 27.5px;
+    margin-top: 24px;
+}
+
+.contact_sec .contact_container .inner_cont .leftRight .contSec h1 {
+    color: rgba(29, 29, 29, 1);
+    text-transform: uppercase;
+    line-height: 1.4;
+    letter-spacing: 0.05em;
+    font-size: 25px;
+    text-align: center;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 500;
+    font-style: normal;
+}
+
+.contact_sec .contact_container .inner_cont .leftRight .contSec p {
+    color: rgb(47, 47, 47);
+    line-height: 1.8;
+    font-size: 12.4px;
+    text-align: center;
+    font-family: 'Open Sans', sans-serif;
+    font-weight: 500;
+    font-style: normal;
+    letter-spacing: .6px;
+    margin-top: 25px;
+}
+
+.contact_sec .contact_container .inner_cont .leftRight .contSec .contect_form {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    margin-top: 33px;
+}
+
+.contact_sec .contact_container .inner_cont .leftRight .contSec .contect_form :is(input, textarea) {
+    width: 65%;
+    margin: auto;
+    outline: none;
+    background-color: #878f98;
+    border: none;
+    text-align: center;
+    padding: 6px 10px;
+    resize: none;
+}
+
+.contact_sec .contact_container .inner_cont .leftRight .contSec .contect_form :is(input, textarea)::placeholder {
+    color: #757575;
+    font-size: 14px;
+}
