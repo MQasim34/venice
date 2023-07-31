@@ -1,7 +1,7 @@
 /* header */
 header {
     background-color: #fff;
-    position: fixed;
+    /* position: fixed; */
     width: 100%;
     z-index: 100;
 }
@@ -473,7 +473,7 @@ header .header_main .headerright .menuIcon p {
 .homeSec6 .sec6Content .innerContetn h1 {
     font-size: 25px;
     font-weight: 500;
-    color: #000;
+    color: #fff;
     font-family: 'Montserrat', sans-serif;
 }
 
@@ -574,4 +574,206 @@ footer .inner .footerContent p {
 
 .footer_lower .lowerInner .lowerContetn .lowerIcons img {
     width: 25px;
+}
+
+
+/* aboutSec1 */
+.aboutSec1 {
+    padding: 24px 0;
+}
+
+.aboutSec1 .about1_container {
+    max-width: 1125px;
+    width: 100%;
+    margin: auto;
+    padding: 0 13px;
+}
+
+.aboutSec1 .about1_container .about1_inner {
+    display: flex;
+    justify-content: center;
+    gap: 45px
+}
+
+.aboutSec1 .about1_container .about1_inner .sec1_left {
+    width: 57%;
+}
+
+.aboutSec1 .about1_container .about1_inner .sec1_left .leftmain {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    text-align: center;
+    padding: 57px 40px 0 44px;
+}
+
+.aboutSec1 .about1_container .about1_inner .sec1_left .leftmain .title1 {
+    margin: 0;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 500;
+    color: #000;
+    font-size: 25px;
+    letter-spacing: 1.2px;
+    line-height: 1;
+}
+
+.aboutSec1 .about1_container .about1_inner .sec1_left .leftmain .title2 {
+    font-family: 'Baskervville';
+    margin-top: 38px;
+    font-size: 14px;
+    font-style: italic;
+    letter-spacing: .7px;
+    color: rgba(137, 143, 152, 1);
+}
+
+.aboutSec1 .about1_container .about1_inner .sec1_left .leftmain .title3 {
+    margin-top: 42px;
+    font-size: 11.9px;
+    letter-spacing: 1px;
+    font-family: 'Montserrat', sans-serif;
+    line-height: 1.7;
+}
+
+.aboutSec1 .about1_container .about1_inner .sec1_left .leftmain p {
+    margin-top: 33px;
+    font-size: 12px;
+    letter-spacing: .84px;
+    font-family: 'Open Sans', sans-serif;
+    line-height: 1.9;
+}
+
+.aboutSec1 .about1_container .about1_inner .sec1_left .leftmain p.aboutSec1para {
+    margin-top: 10px;
+    letter-spacing: .8px;
+}
+
+.aboutSec1 .about1_container .about1_inner .sec1_left .leftmain .fp {
+    margin-top: 55px;
+}
+
+.aboutSec1 .about1_container .about1_inner .sec1_right {
+    width: 46.4%;
+    /* padding-lseft: 56px; */
+}
+
+.aboutSec1 .about1_container .about1_inner .sec1_right .rightImg img {
+    width: 100%;
+}
+
+.aboutSec3 {
+    padding: 90px 0;
+}
+
+.aboutSec3 h1 {
+    font-size: 26px;
+    letter-spacing: 1px;
+    text-align: center;
+    font-family: 'Montserrat', sans-serif;
+    line-height: 1.7;
+    margin-bottom: 90px;
+}
+
+.aboutSec3 .grid-container {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    border-collapse: collapse;
+    padding: 0 75px;
+}
+
+.aboutSec3 .grid-container .item {
+    border: 1px solid #0303036e;
+    padding: 45px 20px;
+    text-align: center;
+}
+
+.aboutSec3 .grid-container .item span {
+    font-family: 'Baskervville';
+    font-size: 14px;
+    font-style: italic;
+    letter-spacing: .7px;
+    color: rgba(137, 143, 152, 1);
+    margin-bottom: 5px;
+    display: block;
+}
+
+.aboutSec3 .grid-container .item h4 {
+    color: rgba(47, 47, 47, 1);
+    text-transform: uppercase;
+    line-height: 1.8;
+    letter-spacing: 0.14em;
+    font-size: 11px;
+    text-align: center;
+    font-family: 'Montserrat';
+    font-weight: 500;
+    font-style: normal;
+}
+
+
+/* aboutSec2 */
+.aboutSec2 {
+    padding: 45px 0;
+    background-color: #eaf4f8;
+}
+
+.aboutSec2 .aboutsec2_container {
+    padding: 0 14px;
+    max-width: 1140px;
+    width: 100%;
+    margin: auto;
+}
+
+.aboutSec2 h1.aboutTitle {
+    font-size: 26px;
+    letter-spacing: 1px;
+    text-align: center;
+    font-family: 'Montserrat', sans-serif;
+    line-height: 1.7;
+}
+
+.aboutSec2 .aboutSlider {
+    padding: 45px 0 0 0;
+    display: flex;
+    gap: 67px;
+}
+
+.aboutSec2 .aboutSlider .about2Left {
+    width: 43%;
+}
+
+.aboutSec2 .aboutSlider .about2Left img {
+    width: 100%;
+}
+
+.aboutSec2 .aboutSlider .about2Right {
+    width: 51.2%;
+    background-color: rgba(218, 232, 240, 1);
+    padding: 30px 45px;
+}
+
+.aboutSec2 .aboutSlider .about2Right h1.rightTitle {
+    font-size: 26px;
+    letter-spacing: 1px;
+    text-align: center;
+    font-family: 'Montserrat', sans-serif;
+    line-height: 1.7;
+}
+
+.aboutSec2 button.slick-prev {
+    display: none !important;
+}
+
+.aboutSec2 .aboutSlider .about2Right p {
+    font-size: 11px;
+    letter-spacing: .84px;
+    font-family: 'Open Sans', sans-serif;
+    line-height: 1.9;
+    text-align: center;
+}
+
+.aboutSec2 .forNextpre.slick-arrow {
+    position: absolute;
+    bottom: -70px;
+    left: 50%;
+    transform: translateX(-50%);
+    cursor: pointer;
 }
