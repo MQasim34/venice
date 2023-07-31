@@ -339,6 +339,7 @@
 
     .contact_sec {
         padding-top: 14px;
+        margin-bottom: 20px;
     }
 
     .contact_sec .contact_container .inner_cont .leftRight .contSec .contect_form :is(input, textarea) {
