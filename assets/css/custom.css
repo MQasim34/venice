@@ -1170,3 +1170,137 @@ footer .inner .footerContent p {
     font-weight: 400;
     font-style: italic;
 }
+
+
+/* blogSec1 */
+.blogSec1 {
+    padding: 64px 0;
+    background-color: rgba(218, 232, 240, 1);
+    margin-top: 44px;
+}
+
+.blogSec1 .inner {
+    padding: 0 52px;
+    display: flex;
+    gap: 20px;
+    align-items: center;
+}
+
+.blogSec1 .inner .blogLeft {
+    width: 47.2%;
+}
+
+.blogSec1 .inner .blogLeft a {
+    display: block;
+}
+
+.blogSec1 .inner .blogLeft a img {
+    width: 100%;
+}
+
+.blogSec1 .inner .blogRight {
+    width: 50.8%;
+    height: 100%;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    gap: 45px;
+}
+
+.blogSec1 .inner .blogRight a {
+    text-decoration: none;
+    background-color: #eeeeee;
+    display: inline-block;
+    font-family: 'Montserrat', sans-serif;
+    text-transform: capitalize;
+    font-size: 14px;
+    width: 130px;
+    margin: auto;
+    padding: 8px 0;
+    color: #000;
+}
+
+/* blogSec2 */
+.blogSec2 {
+    padding: 45px 0;
+}
+
+.blogSec2 .blog_container {
+    max-width: 1128px;
+    width: 100%;
+    padding: 0 14px;
+    margin: auto;
+}
+
+.blogSec2 .blog_container .inner {
+    display: flex;
+    /* justify-content: center; */
+
+}
+
+.blogSec2 .blog_container .inner .blog_post {
+    width: 73.5%;
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 20px;
+    align-items: center;
+}
+
+.blogSec2 .blog_container .inner .blog_post h3 {
+    color: rgba(137, 143, 152, 1);
+    margin: 15px 0 0 0;
+    line-height: 1.4;
+    letter-spacing: 0.05em;
+    font-size: 17px;
+    text-align: center;
+    font-family: 'Baskervville', serif;
+    font-weight: 400;
+    font-style: italic;
+}
+
+.blogSec2 .blog_container .inner .blog_post a {
+    color: rgba(47, 47, 47, 1);
+    text-transform: uppercase;
+    line-height: 1.8;
+    letter-spacing: 0.14em;
+    font-size: 11px;
+    text-align: center;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 500;
+    text-decoration: none;
+    display: block;
+    margin-top: 15px;
+    margin-bottom: 15px;
+}
+
+.blogSec2 .blog_container .inner .blog_post .bloList img {
+    width: 100%;
+    height: 215px;
+    object-fit: cover;
+}
+
+.blogSec2 .blog_container .inner .side_bar {
+    height: 20%;
+}
+
+.blogSec2 .blogListBtn {
+    padding: 15px 110px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: rgb(208, 228, 240);
+}
+
+.blogSec2 .blogListBtn a {
+    color: rgba(47, 47, 47, 1);
+    text-transform: uppercase;
+    line-height: 1.8;
+    letter-spacing: 0.14em;
+    font-size: 11px;
+    text-align: center;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 500;
+    font-style: normal;
+    text-decoration: none;
+
+}

@@ -255,6 +255,35 @@
     .schedule_section .sch_container .inner .sche_left img {
         height: 450px;
     }
+
+    .blogSec1 .inner {
+        display: flex;
+        flex-direction: column;
+    }
+
+    .blogSec1 .inner .blogLeft {
+        width: 100%;
+    }
+
+    .blogSec1 .inner .blogRight {
+        width: 100%;
+        gap: 15px;
+    }
+
+    .blogSec1 {
+        padding: 14px 0 20px 0;
+        margin: 0;
+    }
+
+    .blogSec1 .inner {
+        padding: 0;
+    }
+
+    .blogSec2 .blog_container .inner .blog_post {
+        width: 100%;
+        display: grid;
+        grid-template-columns: repeat(2, 1fr);
+    }
 }
 
 
@@ -394,6 +423,10 @@
     .schedule_section {
         padding: 45px 0;
     }
+
+    .blogSec2 .blogListBtn {
+        padding: 15px 14px;
+    }
 }
 
 
@@ -443,6 +476,12 @@
 
     .scheduleSec2 p br {
         display: none;
+    }
+
+    .blogSec2 .blog_container .inner .blog_post {
+        width: 100%;
+        display: grid;
+        grid-template-columns: repeat(1, 1fr);
     }
 }
 
