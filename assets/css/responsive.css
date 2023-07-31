@@ -317,6 +317,10 @@
     footer .inner .footerContent .footerImgs {
         gap: 5px;
     }
+
+    .aboutSec2 .forNextpre.slick-arrow {
+        bottom: -10px;
+    }
 }
 
 
