@@ -201,7 +201,25 @@
     .aboutSec2 .aboutSlider .slick-slide {
         width: 100%;
         height: auto !important;
+    }
 
+    .sericeSec1 p br {
+        display: none;
+    }
+
+    .servicesSec2 .servSecOuter .SerContaienr .secInner {
+        flex-direction: column;
+    }
+
+    .servicesSec2 .servSecOuter .SerContaienr .secInner .seriRght .rightCon p br {
+        display: none;
+    }
+
+    .sevSec3 .sec3Inner {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        gap: 20px;
     }
 }
 
@@ -273,7 +291,24 @@
 
     .aboutSec2 .aboutSlider .about2Left {
         width: 90%;
+    }
 
+    .servicesSec2 .servSecOuter .SerContaienr .secInner .serLeft,
+    .servicesSec2 .servSecOuter .SerContaienr .secInner .seriRght {
+        width: 100%;
+    }
+
+    .serviceSec4 .inner .serSec4Cont .contentInner br {
+        display: none;
+    }
+
+    .serviceSec4 .inner .serSec4Cont .contentInner h1 {
+        font-size: 20px;
+    }
+
+    .serviceSec4 .inner .serSec4Cont .contentInner p {
+        font-size: 14px;
+        margin: 10px 0 15px 0;
     }
 }
 

@@ -777,3 +777,209 @@ footer .inner .footerContent p {
     transform: translateX(-50%);
     cursor: pointer;
 }
+
+/* sericeSec1 */
+.sericeSec1 {
+    padding: 35px 0;
+}
+
+.sericeSec1 h1 {
+    font-size: 26px;
+    letter-spacing: .73px;
+    padding: 0;
+    padding: 3px 5px;
+    text-align: center;
+    line-height: 1.8;
+    font-family: 'Montserrat', sans-serif;
+}
+
+.sericeSec1 p {
+    color: rgba(29, 29, 29, 1);
+    line-height: 1.8;
+    letter-spacing: 0.05em;
+    font-size: 13px;
+    text-align: center;
+    font-family: 'Open Sans';
+    font-weight: 300;
+    font-style: normal;
+    margin-top: 20px;
+}
+
+/* .servicesSec2 */
+.servicesSec2 .servSecOuter.Secsection1 {
+    background-color: rgba(218, 232, 240, 1);
+    padding: 45px 0;
+}
+
+.servicesSec2 .servSecOuter .SerContaienr {
+    max-width: 800px;
+    width: 100%;
+    padding: 0 15px;
+    margin: auto;
+}
+
+.servicesSec2 .servSecOuter .SerContaienr .secInner {
+    display: flex;
+    gap: 40px;
+    justify-content: center;
+    align-items: center;
+}
+
+.servicesSec2 .servSecOuter .SerContaienr .secInner .serLeft {
+    width: 37.3%;
+}
+
+.servicesSec2 .servSecOuter .SerContaienr .secInner .serLeft .img img {
+    width: 100%;
+}
+
+.servicesSec2 .servSecOuter .SerContaienr .secInner .seriRght {
+    width: 60%;
+}
+
+.servicesSec2 .servSecOuter .SerContaienr .secInner .seriRght .rightCon {
+    padding-left: 20px;
+}
+
+.servicesSec2 .servSecOuter .SerContaienr .secInner .seriRght .rightCon h1 {
+    color: rgba(137, 143, 152, 1);
+    line-height: 1.4;
+    letter-spacing: 0.05em;
+    font-size: 14px;
+    text-align: center;
+    font-family: 'Baskervville', serif;
+    font-weight: 400;
+    font-style: italic;
+}
+
+.servicesSec2 .servSecOuter .SerContaienr .secInner .seriRght .rightCon p {
+    color: rgb(0, 0, 0);
+    letter-spacing: 0.02em;
+    font-size: 14px;
+    text-align: center;
+    font-family: 'Open Sans', sans-serif;
+    font-weight: 300;
+    font-style: normal;
+}
+
+.servicesSec2 .servSecOuter .SerContaienr .secInner .seriRght .rightCon a {
+    color: rgba(47, 47, 47, 1);
+    text-transform: uppercase;
+    letter-spacing: 0.14em;
+    font-size: 11px;
+    text-align: center;
+    margin-top: 30px;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 500;
+    font-style: normal;
+    text-decoration: none;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+/* sevSec3 */
+.sevSec3 {
+    background-color: rgba(218, 232, 240, 1);
+    padding: 70px 0;
+}
+
+.sevSec3 .sec3Inner {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 120px;
+    padding-top: 30px;
+}
+
+.sevSec3 h1.sectitle {
+    font-size: 26px;
+    letter-spacing: .73px;
+    font-weight: 600;
+    text-align: center;
+    line-height: 1.8;
+    font-family: 'Montserrat', sans-serif;
+}
+
+.sevSec3 .sec3Inner .Sec3Main {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.sevSec3 .sec3Inner .Sec3Main .content {
+    margin-top: 30px;
+}
+
+.sevSec3 .sec3Inner .Sec3Main h1 {
+    color: rgba(137, 143, 152, 1);
+    line-height: 1.4;
+    letter-spacing: 0.05em;
+    font-size: 14px;
+    text-align: center;
+    font-family: 'Baskervville', serif;
+    font-weight: 400;
+    font-style: italic;
+}
+
+.sevSec3 .sec3Inner .Sec3Main p {
+    color: rgb(0, 0, 0);
+    letter-spacing: 0.02em;
+    font-size: 14px;
+    text-align: center;
+    font-family: 'Open Sans', sans-serif;
+    font-weight: 300;
+    font-style: normal;
+}
+
+/* serviceSec4 */
+.serviceSec4 .inner {
+    position: relative;
+}
+
+.serviceSec4 .inner .img img {
+    width: 100%;
+    height: 80vh;
+    object-fit: cover;
+}
+
+.serviceSec4 .inner .serSec4Cont {
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 0 15px;
+}
+
+.serviceSec4 .inner .serSec4Cont .contentInner {
+    max-width: 562px;
+    width: 100%;
+    background-color: #fff;
+    padding: 30px;
+}
+
+.serviceSec4 .inner .serSec4Cont .contentInner h1 {
+    font-size: 26px;
+    letter-spacing: .73px;
+    font-weight: 500;
+    text-align: center;
+    font-family: 'Montserrat', sans-serif;
+}
+
+.serviceSec4 .inner .serSec4Cont .contentInner p {
+    color: rgba(137, 143, 152, 1);
+    line-height: 1.4;
+    letter-spacing: 0.05em;
+    font-size: 18px;
+    text-align: center;
+    font-family: 'Baskervville', serif;
+    font-weight: 400;
+    font-style: italic;
+    margin-top: 30px;
+    margin-bottom: 30px;
+}
